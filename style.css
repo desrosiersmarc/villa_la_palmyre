@@ -1,2 +1,73 @@
+/*color variables*/
+:root {
+  --main-red: red;
+  --main-blue: blue;
+  --main-gray: #3A405A;
+  --main-gray-dark: #0F1A20;
+  --main-orange: #FF5714;
+  --main-green: #A1C181;
+  --main-not-totaly-white: #FFF8E8;
+}
+
+/*Principle element*/
 body {
+  background-color: var(--main-gray-dark);
+}
+
+a {
+  color: var(--main-not-totaly-white);
+}
+
+a:hover {
+  text-decoration: none;
+  color: var(--main-orange);
+}
+
+/*btn-calendar*/
+.btn-calendar {
+  height: 50px;
+  width: 50px;
+  background-color: var(--main-red);
+  border-radius: 50%;
+  color: var(--main-not-totaly-white);
+  font-size: 25px;
+  bottom: 20px;
+  right: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-calendar a {
+  color: var(--main-not-totaly-white);
+}
+
+.btn-calendar:hover {
+  border: 1px solid var(--main-red);
+  background-color: var(--main-not-totaly-white);
+}
+
+.btn-calendar a:hover {
+  color: var(--main-red);
+
+}
+
+/*item-head*/
+.item-div {
+  height: 40px;
+  display: flex;
+  align-items: center;
+  background-color: var(--main-gray-dark);
+  color: var(--main-not-totaly-white);
+  border: solid 1px var(--main-orange);
+  margin-bottom: 5px;
+}
+
+/*Title div*/
+.title-div {
+  color: var(--main-not-totaly-white);
+}
+
+.div-item {
+  background-color: var(--main-not-totaly-white);
 }
