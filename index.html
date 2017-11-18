@@ -9,32 +9,33 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <div>
-    <h2 class='title-div'>
-      Magnifique villa de standing avec SPA, salle de sport, salle de jeux
-    </h2>
-  </div>
-
-
   <div id="exampleAccordion" data-children=".item">
     <div class="">
-      <div class="item-div">
         <a data-toggle="collapse" data-parent="#exampleAccordion" href="#exampleAccordion1" aria-expanded="true" aria-controls="exampleAccordion1">
-          Visite en vidéo
+          <div class="wrapper" style="background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url('http://www.elyseesocean.com/wp-content/uploads/sites/8/2016/09/Maison-contemporaine-sur-un-golf-La-Palmyre-17-BER-165.jpg')">
+            <h2>
+              Sur le golf de la palmyre, magnifique villa pour 12 personnes créé pour la détente...
+            </h2>
+            <div class="wrapper-detail btn-circle">
+              <i class="fa fa-search" aria-hidden="true"></i>
+            </div>
+          </div>
         </a>
-
-      </div>
-
       <div id="exampleAccordion1" class="collapse div-item" role="tabpanel">
         <iframe width="560" height="315" src="https://www.youtube.com/embed/hCxV_2JrjiA" frameborder="0" allowfullscreen></iframe>
       </div>
     </div>
     <div class="">
-      <div class="item-div">
         <a data-toggle="collapse" data-parent="#exampleAccordion" href="#exampleAccordion2" aria-expanded="false" aria-controls="exampleAccordion2">
-          Toggle item 2
+          <div class="wrapper wrapper-bg-white">
+            <i class="fa fa-users" aria-hidden="true"></i> 12
+            <i class="fa fa-bed" aria-hidden="true"></i> 9
+            <i class="fa fa-television" aria-hidden="true"></i> 4
+            <i class="fa fa-gamepad" aria-hidden="true"></i> 1
+
+
+          </div>
         </a>
-      </div>
       <div id="exampleAccordion2" class="collapse div-item" role="tabpanel">
         <p class="mb-3">
           Donec at ipsum dignissim, rutrum turpis scelerisque, tristique lectus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vivamus nec dui turpis. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
@@ -42,36 +43,32 @@
       </div>
     </div>
     <div class="">
-      <div class="item-div">
-        <a data-toggle="collapse" data-parent="#exampleAccordion" href="#exampleAccordion3" aria-expanded="false" aria-controls="exampleAccordion2">
-          Toggle item 2
+        <a data-toggle="collapse" data-parent="#exampleAccordion" href="#exampleAccordion3" aria-expanded="true" aria-controls="exampleAccordion1">
+          <div class="wrapper" style="background-image: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url('https://media-cdn.tripadvisor.com/media/photo-s/0b/80/3a/a2/golf-de-la-palmyre.jpg')">
+            <h2>
+              Sur le golf de la palmyre, magnifique villa pour 12 personnes idéal pour la détente...
+            </h2>
+            <div class="wrapper-detail btn-circle">
+              <i class="fa fa-search" aria-hidden="true"></i>
+            </div>
+          </div>
         </a>
-      </div>
       <div id="exampleAccordion3" class="collapse div-item" role="tabpanel">
-        <p class="mb-3">
-          Donec at ipsum dignissim, rutrum turpis scelerisque, tristique lectus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vivamus nec dui turpis. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-        </p>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/hCxV_2JrjiA" frameborder="0" allowfullscreen></iframe>
       </div>
     </div>
     <div class="">
-      <div class="item-div">
         <a data-toggle="collapse" data-parent="#exampleAccordion" href="#exampleAccordion4" aria-expanded="false" aria-controls="exampleAccordion2">
-          Toggle item 2
+          <div class="wrapper wrapper-bg-white">
+            <i class="fa fa-users" aria-hidden="true"></i> 12
+            <i class="fa fa-bed" aria-hidden="true"></i> 9
+            <i class="fa fa-television" aria-hidden="true"></i> 4
+            <i class="fa fa-gamepad" aria-hidden="true"></i> 1
+
+
+          </div>
         </a>
-      </div>
       <div id="exampleAccordion4" class="collapse div-item" role="tabpanel">
-        <p class="mb-3">
-          Donec at ipsum dignissim, rutrum turpis scelerisque, tristique lectus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vivamus nec dui turpis. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-        </p>
-      </div>
-    </div>
-    <div class="">
-      <div class="item-div">
-        <a data-toggle="collapse" data-parent="#exampleAccordion" href="#exampleAccordion5" aria-expanded="false" aria-controls="exampleAccordion2">
-          Toggle item 2
-        </a>
-      </div>
-      <div id="exampleAccordion5" class="collapse div-item" role="tabpanel">
         <p class="mb-3">
           Donec at ipsum dignissim, rutrum turpis scelerisque, tristique lectus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vivamus nec dui turpis. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
         </p>
@@ -81,7 +78,19 @@
 
   <!-- Fixed calendar link to 'leboncoin' -->
 
-  <div class="position-fixed btn-calendar">
+  <div class="position-fixed btn-phone btn-circle">
+    <a href="tel:0662262352">
+      <i class="fa fa-phone" aria-hidden="true"></i>
+    </a>
+  </div>
+
+  <div class="position-fixed btn-mail btn-circle">
+    <a href="mailto:mdesrosiers@orange.fr" target="_blank">
+      <i class="fa fa-envelope" aria-hidden="true"></i>
+    </a>
+  </div>
+
+  <div class="position-fixed btn-calendar btn-circle">
     <a href="https://www.leboncoin.fr/locations_gites/1108571915.htm?ca=20_s" target="_blank">
       <i class="fa fa-calendar-check-o" aria-hidden="true"></i>
     </a>
