@@ -8,6 +8,7 @@
   --main-green: #A1C181;
   --main-white: #FFF;
   --main-bg: #DBDBDB;
+  --main-black: #000;
 
   --wrapper-height: 60vh;
   --wrapper-bg-white-height: 40vh;
@@ -71,14 +72,16 @@ a:hover {
 
 .btn-camera {
   position: absolute;
-  top: 10px;
+  bottom: 10px;
 
 }
 
 .wrapper-video {
   height:var(--wrapper-height);
   width: 100%;
-  background-color: var(--main-orange);
+  background-color: var(--main-black);
+  display: none;
+  text-align: center
 }
 
 
@@ -114,4 +117,11 @@ a:hover {
 
 .div-item {
   background-color: var(--main-white);
+}
+
+.visible {
+  visibility: visible;
+}
+.invisible {
+  visibility: hidden;
 }
