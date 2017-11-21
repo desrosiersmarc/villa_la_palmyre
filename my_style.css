@@ -6,7 +6,11 @@
   --main-gray-dark: #0F1A20;
   --main-orange: #FF5714;
   --main-green: #A1C181;
-  --main-white: #FFF8E8;
+  --main-white: #FFF;
+  --main-bg: #DBDBDB;
+
+  --wrapper-height: 60vh;
+  --wrapper-bg-white-height: 40vh;
 }
 
 /*Principle element*/
@@ -65,10 +69,23 @@ a:hover {
   right: 20px;
 }
 
+.btn-camera {
+  position: absolute;
+  top: 10px;
+
+}
+
+.wrapper-video {
+  height:var(--wrapper-height);
+  width: 100%;
+  background-color: var(--main-orange);
+}
+
 
 /*item-head*/
 .wrapper {
-  height: 50vh;
+  height: var(--wrapper-height);
+  width: 100%;
   display: flex;
   background-size: cover !important;
   background-position: center;
@@ -77,23 +94,23 @@ a:hover {
   color: var(--main-white);
   position:relative;
   text-align: center;
-  padding: 10px;
+  /*padding: 10px;*/
+  background-color: var(--main-bg)
 }
 
 .wrapper-bg-white {
+  height: var(--wrapper-bg-white-height);
   color: var(--main-gray-dark);
+  background-color: var(--main-white);
+  flex-direction: column;
 }
 
-.wrapper-detail {
-  position: absolute;
-  bottom: 10px;
+.height-pictures-carousel {
+  height: var(--wrapper-height);
+  /*justify-content: center;*/
 }
 
 
-/*Title div*/
-.title-div {
-  color: var(--main-orange);
-}
 
 .div-item {
   background-color: var(--main-white);
