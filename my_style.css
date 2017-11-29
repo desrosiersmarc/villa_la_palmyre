@@ -80,7 +80,6 @@ a:hover {
   height:var(--wrapper-height);
   width: 100%;
   background-color: var(--main-black);
-  display: none;
   text-align: center
 }
 
@@ -102,7 +101,7 @@ a:hover {
 }
 
 .wrapper-bg-white {
-  height: var(--wrapper-bg-white-height);
+  min-height: var(--wrapper-bg-white-height);
   color: var(--main-gray-dark);
   background-color: var(--main-white);
   flex-direction: column;
