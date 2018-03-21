@@ -10,8 +10,8 @@
   --main-bg: #DBDBDB;
   --main-black: #000;
 
-  --wrapper-height: 60vh;
-  --wrapper-bg-white-height: 40vh;
+  --wrapper-height: 65vh;
+  --wrapper-bg-white-height: 35vh;
 }
 
 /*Principle element*/
@@ -55,7 +55,11 @@ a:hover {
 
 }
 
-.btn-phone {
+.btn-video {
+  bottom: 20px;
+  right: 140px;
+
+}.btn-phone {
   bottom: 20px;
   right: 100px;
 }
