@@ -7,11 +7,11 @@
   --main-orange: #FF5714;
   --main-green: #A1C181;
   --main-white: #FFF;
-  --main-bg: #DBDBDB;
+  --main-bg: #353535;
   --main-black: #000;
 
   --wrapper-height: 65vh;
-  --wrapper-bg-white-height: 35vh;
+  --wrapper-bg-white-height: 40vh;
 }
 
 /*Principle element*/
@@ -109,6 +109,7 @@ a:hover {
   color: var(--main-gray-dark);
   background-color: var(--main-white);
   flex-direction: column;
+  padding: 20px;
 }
 
 .height-pictures-carousel {
