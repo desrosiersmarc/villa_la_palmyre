@@ -3,7 +3,7 @@
   --main-red: red;
   --main-blue: blue;
   --main-gray: #3A405A;
-  --main-gray-dark: #0F1A20;
+  --main-gray-dark: #222;
   --main-orange: #FF5714;
   --main-green: #A1C181;
   --main-white: #FFF;
@@ -83,7 +83,7 @@ a:hover {
 .wrapper-video {
   height:var(--wrapper-height);
   width: 100%;
-  background-color: var(--main-black);
+  background-color: var(--main-gray-dark);
   text-align: center
 }
 
@@ -101,7 +101,7 @@ a:hover {
   position:relative;
   text-align: center;
   /*padding: 10px;*/
-  background-color: var(--main-bg)
+  background-color: var(--main-gray-dark)
 }
 
 .wrapper-bg-white {
