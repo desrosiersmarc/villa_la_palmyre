@@ -90,7 +90,7 @@ a:hover {
 
 /*item-head*/
 .wrapper {
-  height: var(--wrapper-height);
+  /*height: var(--wrapper-height);*/
   width: 100%;
   display: flex;
   background-size: cover !important;
@@ -112,8 +112,12 @@ a:hover {
 }
 
 .height-pictures-carousel {
-  height: var(--wrapper-height);
+  /*height: var(--wrapper-height);*/
   /*justify-content: center;*/
+}
+
+.home-page {
+  height: var(--wrapper-height);
 }
 
 
