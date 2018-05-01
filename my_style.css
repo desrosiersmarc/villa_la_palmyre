@@ -112,9 +112,8 @@ a:hover {
   padding: 20px;
 }
 
-.height-pictures-carousel {
-  /*height: var(--wrapper-height);*/
-  /*justify-content: center;*/
+.carousel-position {
+  position: relative;
 }
 
 .home-page {
@@ -132,4 +131,21 @@ a:hover {
 }
 .invisible {
   visibility: hidden;
+}
+
+.informations {
+  right: 3px;
+  background-color: red;
+  position: absolute;
+  padding: 5px;
+  border-radius: 3px;
+  top: 39px;
+  width: 150px;
+  height:60px;
+  /*TODO vertical text align*/
+  box-shadow: 0 5px 5px rgba(0,0,0,0.2);
+  transform: rotate(0.1turn);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
