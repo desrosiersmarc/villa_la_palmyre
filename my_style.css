@@ -120,6 +120,9 @@ a:hover {
   height: var(--wrapper-height);
 }
 
+.text-shadow-banner {
+  text-shadow: 0 5px 5px rgba(0,0,0,0.6);
+}
 
 
 .div-item {
