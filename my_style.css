@@ -104,6 +104,10 @@ a:hover {
   background-color: var(--main-gray-dark)
 }
 
+.wrapper-height {
+  height: var(--wrapper-bg-white-height);
+}
+
 .wrapper-bg-white {
   min-height: var(--wrapper-bg-white-height);
   color: var(--main-gray-dark);
