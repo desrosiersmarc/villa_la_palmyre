@@ -101,7 +101,7 @@ a:hover {
   position:relative;
   text-align: center;
   /*padding: 10px;*/
-  background-color: var(--main-gray-dark)
+  background-color: var(--main-gray-dark);
 }
 
 .wrapper-height {
@@ -157,7 +157,7 @@ a:hover {
   align-items: center;
 }
 
-.sun-title {
-  color: orange;
+.i-title {
+  color: var(--main-orange);
   font-size: 40px;
 }
