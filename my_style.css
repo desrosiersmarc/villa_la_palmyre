@@ -106,6 +106,8 @@ a:hover {
 
 .wrapper-height {
   height: var(--wrapper-bg-white-height);
+  display: flex;
+  justify-content: center;
 }
 
 .wrapper-bg-white {
